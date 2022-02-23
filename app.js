@@ -1,16 +1,13 @@
 function hello() {
   //logic
+  console.log('hello there bob');
+  console.log('hello there john');
+  console.log('hello there susy');
 }
 
-console.log('hello there bob');
-console.log('hello there anna');
-console.log('hello there susy');
-// code here
-console.log('hello there bob');
-console.log('hello there anna');
-console.log('hello there susy');
-//code here
-console.log('hello there bob');
-console.log('hello there anna');
-console.log('hello there susy');
-//code here
+hello();
+//some code here
+hello();
+//some code here
+hello();
+//some code here
