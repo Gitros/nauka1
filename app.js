@@ -1,5 +1,5 @@
 const value = true;
 
-if (2 > 1) {
+if (value) {
   console.log('hello world');
 }
