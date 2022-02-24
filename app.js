@@ -9,5 +9,13 @@ const width = calculate(100);
 const height = calculate(wallHeight);
 const dafs = calculate(wallHeight) + 10;
 const dimensions = [width, height, dafs];
+
 console.log(width);
 console.log(dimensions);
+
+function multiply(var1, var2) {
+  return var1 * var2;
+}
+
+const var1 = multiply(100, 200);
+console.log(var1);
