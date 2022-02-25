@@ -1,9 +1,8 @@
 const num1 = 6;
-const num2 = 6;
-const result = num1 >= num2;
+const num2 = '6';
 
-const value = false;
+const value = num1 != num2;
+const value2 = num1 !== num2;
 
-if (!value) {
-  console.log('value is true');
-}
+console.log(value);
+console.log(value2);
