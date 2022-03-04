@@ -7,7 +7,7 @@ let number2 = 2 + 5;
 //ternary operator
 //condition ? (runs if true) : (runs if false)
 
-const value = 2 > 1;
+const value = 1 < 0;
 if (value) {
   console.log('value is true');
 } else {
