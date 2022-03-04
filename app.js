@@ -9,7 +9,7 @@ console.log(`the second value is ${number2}`);
 //when assigning non-primitive data type value to a variable is done by reference so any  changes will affect all the references.
 
 let person = { name: 'bob' };
-let person2 = person;
+let person2 = { ...person };
 person2.name = 'susy';
 console.log(`the name of the first person is ${person.name}`);
 console.log(`the name of the second person is ${person2.name}`);
