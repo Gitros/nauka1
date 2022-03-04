@@ -8,8 +8,11 @@ let number2 = 2 + 5;
 //condition ? (runs if true) : (runs if false)
 
 const value = 1 < 0;
-if (value) {
-  console.log('value is true');
-} else {
-  console.log('value is false');
-}
+
+value ? console.log('value is true') : console.log('value is false');
+
+// if (value) {
+//   console.log('value is true');
+// } else {
+//   console.log('value is false');
+// }
