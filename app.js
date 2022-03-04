@@ -4,7 +4,7 @@
 const bool1 = true;
 const bool2 = 2 > 1;
 
-const text = 'john';
+const text = '';
 
 if (text) {
   console.log('hey the value truthy');
