@@ -4,9 +4,9 @@
 const bool1 = true;
 const bool2 = 2 > 1;
 
-if (true) {
+if (bool1) {
   console.log(`Hey it works!`);
 }
-if (2 > 1) {
+if (bool2) {
   console.log(`Hey it also works!`);
 }
