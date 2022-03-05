@@ -5,9 +5,15 @@
 
 let name = 'bobo';
 
-function calculate() {}
+function calculate() {
+  const name = 'john';
+  const age = 25;
+  //code goes here
+}
+console.log(age);
 calculate();
 
 if (true) {
+  const name = 'john';
 }
 console.log(`my name is ${name} and I'm awesome`);
