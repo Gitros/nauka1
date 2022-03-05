@@ -9,6 +9,11 @@ name = 'peter';
 function calculate() {
   console.log(name);
   name = 'orange';
+  function inner() {
+    name = 'inner name value';
+    console.log(`this is from inner function ${name}`);
+  }
+  inner();
 }
 calculate();
 
