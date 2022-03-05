@@ -5,3 +5,4 @@
 
 let name = 'bobo';
 name = 'peter';
+const name = 'john';
