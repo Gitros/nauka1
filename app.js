@@ -5,5 +5,5 @@
 
 let name = 'bobo';
 name = 'peter';
-const name1 = 'john';
-const name2 = 'john';
+
+console.log(`my name is ${name} and I'm awesome`);
