@@ -10,5 +10,10 @@ function calculate() {
   console.log(name);
   name = 'orange';
 }
+calculate();
 
+if (true) {
+  console.log(name);
+  name = 'pants';
+}
 console.log(`my name is ${name} and I'm awesome`);
