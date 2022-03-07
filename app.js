@@ -1,15 +1,22 @@
-function greetMorning(name) {
+function morning() {
+  return `Good morning Bob`;
+}
+
+function greet(name, cb) {
   const myName = 'john';
   console.log(`Good morning ${name}, my name is ${myName}`);
 }
-function greetAfternoon(name) {
-  const myName = 'john';
-  console.log(`Good afternoon ${name}, my name is ${myName}`);
-}
-
 greetMorning('bobo');
 greetAfternoon('peter');
 
+// function greetMorning(name) {
+//   const myName = 'john';
+//   console.log(`Good morning ${name}, my name is ${myName}`);
+// }
+// function greetAfternoon(name) {
+//   const myName = 'peter';
+//   console.log(`Good afternoon ${name}, my name is ${myName}`);
+// }
 //callback functions higher order functions functions as first class objects/ citizens
 
 //function are first class objects - stored in a variable passed as an argument to another function return form the function
