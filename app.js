@@ -1,16 +1,18 @@
-function morning() {
-  return `Good morning Bob`;
-  console.log(`Good morning Bob`);
+function morning(name) {
+  return `Good morning ${name}`;
+}
+function afternoon(name) {
+  return `Good morning ${name}`;
 }
 
 function greet(name, cb) {
   cb();
   const myName = 'john';
-  console.log(`Good morning ${name}, my name is ${myName}`);
+  console.log(`${cb(name)}, my name is ${myName}`);
 }
 
 greet('bobo', morning);
-greet('peter');
+greet('peter', afternoon);
 
 // function greetMorning(name) {
 //   const myName = 'john';
