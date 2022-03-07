@@ -2,8 +2,13 @@ function greetMorning(name) {
   const myName = 'john';
   console.log(`Good morning ${name}, my name is ${myName}`);
 }
+function greetAfternoon(name) {
+  const myName = 'john';
+  console.log(`Good afternoon ${name}, my name is ${myName}`);
+}
 
 greetMorning('bobo');
+greetAfternoon('peter');
 
 //callback functions higher order functions functions as first class objects/ citizens
 
