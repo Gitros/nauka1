@@ -1,7 +1,7 @@
-//map
-//does not return new array
-//does not change size of original array
-//uses values from original array when making new one
+//filter
+//does return new array
+//can manipulate the size of new array
+//returns based on condition
 
 const people = [
   { name: 'bob', age: 20, position: 'developer' },
@@ -9,3 +9,12 @@ const people = [
   { name: 'susy', age: 30, position: 'the boss' },
   { name: 'anna', age: 35, position: 'the boss' },
 ];
+
+const youngPeople = people.filter(function (person) {
+  return person.age <= 25;
+});
+
+const developers = people.filter(function (person) {
+  return person.position === 'developer';
+});
+console.log(developers);
