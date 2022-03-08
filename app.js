@@ -7,10 +7,13 @@ const people = [
   { name: 'bob', age: 20, position: 'developer' },
   { name: 'peter', age: 25, position: 'designer' },
   { name: 'susy', age: 30, position: 'the boss' },
+  { name: 'anna', age: 35, position: 'the boss' },
 ];
 
 const ages = people.map(function (person) {
-  console.log(person);
-  return 'hello world';
+  return person.age + 20;
 });
-console.log(ages);
+const newPeople = people.map(function (person) {
+  return { firstName: person.name.toUpperCase(), oldAge: person.age + 20 };
+});
+console.log(newPeople);
