@@ -11,4 +11,6 @@ function showPerson(person) {
   console.log(person.position.toUpperCase());
 }
 
-people.forEach(showPerson);
+people.forEach(function (item) {
+  console.log(item.position.toUpperCase());
+});
