@@ -15,6 +15,6 @@
 // const result = Math.min(4, 5, 6, 7, 9);
 // const result2 = Math.max(4, 5, 6, 7, 9);
 
-const result = Math.random();
+const result = Math.floor(Math.random() * 10 + 1);
 
 console.log(result);
