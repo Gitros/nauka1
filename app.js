@@ -7,7 +7,9 @@
 // const number = 4.12222;
 // const result = Math.ceil(number);
 
-const number = 89;
-const result = Math.sqrt(number);
+// const number = 89;
+// const result = Math.sqrt(number);
+
+const result = Math.PI;
 
 console.log(result);
