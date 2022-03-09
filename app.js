@@ -25,7 +25,8 @@ const days = [
   'Saturtday',
 ];
 
-const date = new Date();
+// const date = new Date();
+const date = new Date('1/12/2004');
 const month = date.getMonth();
 console.log(months[month]);
 
@@ -40,3 +41,5 @@ const sentence = `${days[day]}, ${date.getDate()}, ${
 }, ${date.getFullYear()}`;
 
 console.log(sentence);
+
+document.body.innerHTML = sentence;
