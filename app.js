@@ -31,3 +31,6 @@ console.log(months[month]);
 
 const day = date.getDay();
 console.log(days[day]);
+
+console.log(date.getDate());
+console.log(date.getFullYear());
