@@ -28,3 +28,6 @@ const days = [
 const date = new Date();
 const month = date.getMonth();
 console.log(months[month]);
+
+const day = date.getDay();
+console.log(days[day]);
