@@ -12,8 +12,9 @@
 
 // const result = Math.PI;
 
-const result = Math.min(4, 5, 6, 7, 9);
-const result2 = Math.max(4, 5, 6, 7, 9);
+// const result = Math.min(4, 5, 6, 7, 9);
+// const result2 = Math.max(4, 5, 6, 7, 9);
+
+const result = Math.random();
 
 console.log(result);
-console.log(result2);
