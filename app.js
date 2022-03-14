@@ -1,8 +1,9 @@
-//node value
-//textContent
+// getAttribiute();
+// setAttribute();
 
-const item = document.getElementById('special');
-const value = item.firstChild.nodeValue;
-const easyValue = item.textContent;
+const first = document.querySelector('.first');
+const idValue = first.getAttribute('id');
+console.log(idValue);
 
-console.log(easyValue);
+const links = document.querySelectorAll('.first');
+console.log(links);
