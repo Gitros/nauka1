@@ -16,3 +16,7 @@ btn.addEventListener('mousedown', function () {
 btn.addEventListener('mouseup', function () {
   console.log('up');
 });
+
+heading.addEventListener('mouseenter', function () {
+  heading.classList.add('blue');
+});
