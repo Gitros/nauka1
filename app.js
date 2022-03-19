@@ -20,3 +20,7 @@ btn.addEventListener('mouseup', function () {
 heading.addEventListener('mouseenter', function () {
   heading.classList.add('blue');
 });
+
+heading.addEventListener('mouseleave', function () {
+  heading.classList.add('blue');
+});
