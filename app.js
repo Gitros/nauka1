@@ -13,5 +13,5 @@ const nameInput = document.getElementById('name');
 // });
 
 nameInput.addEventListener('keyup', function () {
-  console.dir(nameInput);
+  console.log(nameInput.value);
 });
