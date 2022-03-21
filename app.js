@@ -8,6 +8,10 @@ const nameInput = document.getElementById('name');
 //   console.log('you pressed a key');
 // });
 
-nameInput.addEventListener('keydown', function () {
-  console.log('you pressed a key');
+// nameInput.addEventListener('keydown', function () {
+//   console.log('you pressed a key');
+// });
+
+nameInput.addEventListener('keyup', function () {
+  console.dir(nameInput);
 });
