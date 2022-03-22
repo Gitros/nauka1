@@ -13,8 +13,12 @@ function showBubbling(e) {
     console.log('you clicked on the link');
   }
 }
+function stopPropagation(e) {
+  console.log('you clicked on list');
+  e.stopPropagation();
+}
 
-list.addEventListener('click', showBubbling);
-// container.addEventListener('click', showBubbling);
+list.addEventListener('click', stopPropagation);
+container.addEventListener('click', showBubbling);
 // document.addEventListener('click', showBubbling);
 // window.addEventListener('click', showBubbling);
