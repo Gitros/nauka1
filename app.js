@@ -7,5 +7,6 @@ const name = document.getElementById('name');
 const password = document.getElementById('password');
 
 form.addEventListener('submit', function (e) {
+  e.preventDefault();
   console.log('form submitted');
 });
