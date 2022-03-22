@@ -2,7 +2,7 @@
 
 const friends = ['john', 'peter', 'bob'];
 
-localStorage.setItem('friends', friends);
+localStorage.setItem('friends', JSON.stringify(friends));
 
-const values = localStorage.getItem('friends');
+const values = JSON.parse(localStorage.getItem('friends'));
 console.log(values[0]);
